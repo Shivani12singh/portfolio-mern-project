@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^7.2.0",
+    "axios": "^1.13.6",
+    "cors": "^2.8.6",
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "handlebars": "^4.7.8",
+    "nodemailer": "^8.0.1"
+  },
+  "name": "mern_portfolio",
+  "version": "1.0.0",
+  "description": "portfolio app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shivani",
+  "license": "ISC"
+}
