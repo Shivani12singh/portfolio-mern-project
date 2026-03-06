@@ -54,10 +54,6 @@ app.post("/",(req,res)=>{
     res.json('mail sent');
 });
 
-app.get('/',function(req,res){
-    res.sendFile(path.join(__dirname,'./client/build/index.html'));
-});
-
 //listen
 app.listen(8080,()=>{
     console.log("server Running on Port 8080");
